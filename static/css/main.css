@@ -1,0 +1,37 @@
+:root{
+	--size-index: calc(1vw + 1vh)
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+*{
+	list-style: none !important;
+	font-size: calc(var(--size-index) * .6);
+}
+.container{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 86.8vh;
+    width: 60vw;
+    background-color: #3e3e3e;
+    color: white;
+}
+.header_chat{
+	border-bottom: 1px solid white;
+	height: 7vh;
+    width: 68%;
+    float: right;
+    padding-left: 1vw;
+}
+.acc_list{
+	height: 100%;
+    width: 32%;
+
+}
+img{
+	width: 75px;
+	border-radius: 50%;
+}
